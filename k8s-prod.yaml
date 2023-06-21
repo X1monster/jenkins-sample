@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: xiefei1/jenkins-demo:<BUILD_TAG>
+      - image: 172.16.20.173/jenkins/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
